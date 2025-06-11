@@ -8,8 +8,7 @@
       gtag('config', 'G-65K8PCKDGS');</script><script src="https://unpkg.com/vconsole@3.15.1/dist/vconsole.min.js"></script><script>function getQueryString(name) {
         var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
         var r = window.location.search.substr(1).match(reg);
-        if (r != null) {
-          return unescape(r[2]);
+        if (r != null) 
         }
         return null;
       }

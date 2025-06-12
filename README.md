@@ -9,8 +9,6 @@
         var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
         var r = window.location.search.substr(1).match(reg);
         if (r != null) 
-        }
-        return null;
       }
       if (getQueryString('vc') === '1') {
         var vConsole = new window.VConsole();
